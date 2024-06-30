@@ -1,0 +1,54 @@
+.container{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    color:darkblue;
+}
+
+.asia,
+.europe,
+.russia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img{
+    width: 25vw;
+    height: 30vh;
+
+}
+.srilanka,
+.china,
+.turkey,
+.spain,
+.italy,
+.france,
+.baikal,
+.kavkaz,
+.kamchatka{
+    width: 30vw;
+}
+h1{
+    text-align: center;
+    color:darkblue;
+}
+.main_text{
+    text-align: center;
+}
+.random_choice{
+    align-self: center;
+}
+.button_chice{
+    min-height: 40px;
+    background-color: rgb(169, 227, 169);
+    color:darkblue;
+    border: solid darkblue 3px;
+}
+h2{
+    color:darkblue;
+}
+.pic_had{
+    width: 100vw;
+    height: 300px;
+}
