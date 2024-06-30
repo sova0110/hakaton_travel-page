@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/aroundtheworld.css" />
+    <title>Around the world</title>
+</head>
+<body>
+    <div class="hader">
+        <img src="./assets/images/hader.jpg" class="pic_had" alt="img0" />
+    </div>
+    <div class="container">
+        <h1>Познай мир с удовольствием!</h1>
+        <p class="main_text">
+            Привет, дорогой путешественник, ниже мы собрали основные причины посетить ту или иную страну.
+            Если ты не знаешь что выбрать доверься судьбе:
+        </p>
+        <div class = "random_choice">
+            <button class='button_chice' id="button_id" onclick="randomChoce()">Подобрать спонтанное путешествие</button> <br>
+            <p>Тебе точно понравится это место:</p>
+            <div id="result_choice"></div>
+        </div>
+        <h2>Загадочная Азия</h2>
+        <section class="asia">
+            <div class="srilanka">
+                <h3>Шри-Ланка</h3>
+                    <img src="./assets/images/srilanka.png" class="pictures" alt="img1" />
+                    <p class="text_p">5 причин посетить Шри-ланку</p>
+                    <ul>
+                        <li>
+                            Приятно приехать в страну, которую впервые упомянули 2500 лет назад в «Рамаяне»
+                        </li>
+                        <li>
+                            Улетный серфинг
+                        </li>
+                        <li>
+                            Погрузиться в подводный мир
+                        </li>
+                        <li>
+                            Попробовать экзотические фрукты
+                        </li>
+                        <li>
+                            Прокатиться на слоне
+                        </li>
+                    </ul>
+            </div>
+            <div class="china">
+                <h3>Китай</h3>
+                <img src="./assets/images/china.png" class="pictures" alt="img2" />
+                <p class="text_p">5 причин посетить Китай</p>
+                <ul>
+                    <li>
+                        1000-летняя история 
+                    </li>
+                    <li>
+                        Гастрономическое многообразие
+                    </li>
+                    <li>
+                        Панды украдут твое сердце
+                    </li>
+                    <li>
+                        Покорить великую китайскую стену
+                    </li>
+                    <li>
+                        Изучить кунг-фу
+                    </li>
+                </ul>
+
+            </div>
+            <div clss="turkey">
+                <h3>Турция</h3>
+                <img src="./assets/images/turkey.png" class="pictures" alt="img3" />
+                <p class="text_p">5 причин посетить Турция</p>
+                <ul>
+                    <li>
+                        Погладить котиков в Стамбуле
+                    </li>
+                    <li>
+                        Пройти Ликийскую тропу
+                    </li>
+                    <li>
+                        Оценить крепость кофе по турецки
+                    </li>
+                    <li>
+                        Окунуться в бассейн Клеопатры
+                    </li>
+                    <li>
+                        "All inclusive" весомый аргумент
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <h2>Уютная Европа</h2>
+        <section class="europe">
+            <div class="spain">
+                <h3>Испания</h3>
+                <img src="./assets/images/spain.png" class="pictures" alt="img4" />
+                <p class="text_p">5 причин посетить Испанию</p>
+                <ul>
+                    <li>
+                        Выпить кофе в любом кафе Хеменгуэя в Мадриде
+                    </li>
+                    <li>
+                        Спасти быка от корриды
+                    </li>
+                    <li>
+                        Оценить паэлью
+                    </li>
+                    <li>
+                        Сангрия, Вино и много вкусностей
+                    </li>
+                    <li>
+                        Самая тусовочная Ибица
+                    </li>
+                </ul>
+            </div>
+            <div class="france">
+                <h3>Франция</h3>
+                <img src="./assets/images/france.png" class="pictures" alt="img5" />
+                <p class="text_p">5 причин посетить Францию</p>
+                <ul>
+                    <li>
+                        Увидите Париж и ..., и съесть круассан
+                    </li>
+                    <li>
+                        Сделать фото на лавандовых полях
+                    </li>
+                    <li>
+                        Увидеть Мона Лизу и сделать свои выводы
+                    </li>
+                    <li>
+                        Продегустировать улюток и лягушек
+                    </li>
+                    <li>
+                        Узнать легенду Жанны д'Арк
+                    </li>
+                </ul>
+            </div>
+            <div class="italy">
+                <h3>Италия</h3>
+                <img src="./assets/images/france.png" class="pictures" alt="img6" />
+                <p class="text_p">5 причин посетить Италию</p>
+                <ul>
+                    <li>
+                        Пицца, паста, итальянцы... mama mia!
+                    </li>
+                    <li>
+                        Прокатится на по каналам Венеции
+                    </li>
+                    <li>
+                        Ощутить очарование Генуи
+                    </li>
+                    <li>
+                        Шепнуть сокровенное желание Джульетте
+                    </li>
+                    <li>
+                        Шопинг в столице мировой моды
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <h2>Неизведанная Россия</h2>
+        <section class="russia">
+            <div class="baikal">
+                <h3>Байкал</h3>
+                <img src="./assets/images/baikal.png" class="pictures" alt="img7" />
+                <p class="text_p">5 причин посетить Байкал</p>
+                <ul>
+                    <li>
+                        Почувствовать мощь самого большого озера планеты
+                    </li>
+                    <li>
+                        Шепнуть желание древним богам
+                    </li>
+                    <li>
+                        Попробовать омуль, папоротник и многое другое
+                    </li>
+                    <li>
+                        Увидеть нерп совсем рядом
+                    </li>
+                    <li>
+                        Прокатится на коньках в ледяную даль
+                    </li>
+                </ul>
+            </div>
+            <div class="kamchatka">
+                <h3>Камчатка</h3>
+                <img src="./assets/images/kamchatka.png" class="pictures" alt="img8" />
+                <p class="text_p">5 причин посетить Камчатку</p>
+                <ul>
+                    <li>
+                        Подняться на действующий вулкан
+                    </li>
+                    <li>
+                        Искупаться в гейзерах
+                    </li>
+                    <li>
+                        Встретится с медведем на безопасном расстоянии
+                    </li>
+                    <li>
+                        Контрасты (температур, пейзажей, добра и зла), которые удивят своей близостью
+                    </li>
+                    <li>
+                        Камчатские крабы и другие деликатесы
+                    </li>
+                </ul>
+            </div>
+            <div class="kavkaz">
+                <h3>Кавказ</h3>
+                <img src="./assets/images/kavkaz.png" class="pictures" alt="img8" />
+                <p class="text_p">5 причин посетить Кавказ</p>
+                <ul>
+                    <li>
+                        Покорить Эльбрус
+                    </li>
+                    <li>
+                        Искупаться в природных источниках
+                    </li>
+                    <li>
+                        Попробовать все виды минеральной воды
+                    </li>
+                    <li>
+                        Освоить сноуборд на Чегете
+                    </li>
+                    <li>
+                        Увидеть как цветет Эдельвейс
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <script src="aroundtheworld.js"></script> 
+</body>
+</html>
